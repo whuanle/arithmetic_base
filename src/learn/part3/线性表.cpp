@@ -39,7 +39,7 @@ bool ListInsert_Sq(Dynamic_Sqlist& L, int i, int e) {			// &表示引用，例如 C# 中
 	L.length++;				// 元素个数 +1
 	return true;
 }
-
+  
 /// <summary>
 /// 删除指定位置的元素并返回给调用者
 /// </summary>
