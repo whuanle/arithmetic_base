@@ -81,6 +81,7 @@ void preorderNorecursion(BTNode* bt) {
 	}
 }
 
+// ÏßË÷¶ş²æÊ÷
 
 void Visit(BTNode* p) {
 	printf("%d", p->data);
