@@ -87,7 +87,7 @@ func (hash *HashTable) Get(key string) (bool, string) {
 
 // 判断数组的元素是否有重复
 func containsDuplicate(nums []string) bool {
-	hash := InitHashTable(len(nums))
+	hash := InitHashTable(len(nums)/2)
 
 	for i := 0; i < len(nums); i++ {
 		if exist, _ := hash.Set(nums[i], ""); exist {
